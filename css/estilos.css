@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: #f5f5f5;
+}
+
+header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f9c74f;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav ul li a {
+  color: #f5f5f5;
+  text-decoration: none;
+  font-weight: 300;
+}
+
+nav ul li a:hover {
+  color: #f9c74f;
+  transition: 0.3s ease;
+}
+
+h2 {
+  font-weight: 600;
+  color: #f9c74f;
+}
+
+footer {
+  background-color: #1a1a1d;
+  padding: 20px;
+  text-align: center;
+}
+
+.social-icons a img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+.social-icons a img:hover {
+  filter: brightness(1.2);
+}
